@@ -1,0 +1,4238 @@
+{
+  "file": "confirmed-working.apk",
+  "bytes": 7535302,
+  "sha256": "4eee205339a0b4a4b0a49e5bdad043ed7c17caafb5b3f7549d5298bc7913a955",
+  "manifest": {
+    "permissions": [
+      "android.permission.VIBRATE",
+      "android.permission.INTERNET",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.WRITE_EXTERNAL_STORAGE"
+    ],
+    "package": "com.globalfun.adventuretime.free",
+    "versionName": "1.2.10",
+    "versionCode": 24,
+    "minSdkVersion": 24,
+    "targetSdkVersion": null,
+    "effective_targetSdkVersion": 24
+  },
+  "native_libraries": [],
+  "class_count": 6397,
+  "defined_method_count": 41442,
+  "game_class_count": 47,
+  "game_method_count": 686,
+  "game_native_method_count": 0,
+  "game_classes": {
+    "com.globalfun.adventuretime.free.Animator": [
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "animate",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 196
+      },
+      {
+        "name": "getFrameCount",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 18
+      },
+      {
+        "name": "reset",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 10
+      },
+      {
+        "name": "reset",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 20
+      },
+      {
+        "name": "reset",
+        "signature": "([B)V",
+        "native": false,
+        "code_bytes": 10
+      },
+      {
+        "name": "reset",
+        "signature": "([BI)V",
+        "native": false,
+        "code_bytes": 28
+      },
+      {
+        "name": "setLoops",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 26
+      },
+      {
+        "name": "start",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 52
+      }
+    ],
+    "com.globalfun.adventuretime.free.BuildConfig": [
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      }
+    ],
+    "com.globalfun.adventuretime.free.DeviceConfig": [
+      {
+        "name": "<clinit>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 96
+      }
+    ],
+    "com.globalfun.adventuretime.free.Font": [
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 44
+      },
+      {
+        "name": "getFont",
+        "signature": "(IIII)Lcom/globalfun/adventuretime/free/Font;",
+        "native": false,
+        "code_bytes": 96
+      },
+      {
+        "name": "setFontHeight",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "charWidth",
+        "signature": "(C)I",
+        "native": false,
+        "code_bytes": 36
+      },
+      {
+        "name": "charsWidth",
+        "signature": "([CII)I",
+        "native": false,
+        "code_bytes": 46
+      },
+      {
+        "name": "getBaselinePosition",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "getHeight",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "stringWidth",
+        "signature": "(Ljava/lang/String;)I",
+        "native": false,
+        "code_bytes": 94
+      },
+      {
+        "name": "substringWidth",
+        "signature": "(Ljava/lang/String;II)I",
+        "native": false,
+        "code_bytes": 88
+      }
+    ],
+    "com.globalfun.adventuretime.free.GameThread": [
+      {
+        "name": "<clinit>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 14
+      },
+      {
+        "name": "<init>",
+        "signature": "(Lcom/globalfun/adventuretime/free/Main;)V",
+        "native": false,
+        "code_bytes": 30
+      },
+      {
+        "name": "requestRepaint",
+        "signature": "(Lcom/globalfun/adventuretime/free/GameCanvas;)V",
+        "native": false,
+        "code_bytes": 120
+      },
+      {
+        "name": "onKey",
+        "signature": "(Landroid/view/View;ILandroid/view/KeyEvent;)Z",
+        "native": false,
+        "code_bytes": 88
+      },
+      {
+        "name": "onTouch",
+        "signature": "(Landroid/view/View;Landroid/view/MotionEvent;)Z",
+        "native": false,
+        "code_bytes": 836
+      },
+      {
+        "name": "recreateView",
+        "signature": "(Lcom/globalfun/adventuretime/free/Main;)V",
+        "native": false,
+        "code_bytes": 90
+      },
+      {
+        "name": "run",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "runGameLoop",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 12
+      },
+      {
+        "name": "surfaceChanged",
+        "signature": "(Landroid/view/SurfaceHolder;III)V",
+        "native": false,
+        "code_bytes": 2
+      },
+      {
+        "name": "surfaceCreated",
+        "signature": "(Landroid/view/SurfaceHolder;)V",
+        "native": false,
+        "code_bytes": 32
+      },
+      {
+        "name": "surfaceDestroyed",
+        "signature": "(Landroid/view/SurfaceHolder;)V",
+        "native": false,
+        "code_bytes": 12
+      }
+    ],
+    "com.globalfun.adventuretime.free.Graphics": [
+      {
+        "name": "<init>",
+        "signature": "(Landroid/graphics/Canvas;)V",
+        "native": false,
+        "code_bytes": 188
+      },
+      {
+        "name": "clipRect",
+        "signature": "(IIII)V",
+        "native": false,
+        "code_bytes": 44
+      },
+      {
+        "name": "drawArc",
+        "signature": "(IIIIII)V",
+        "native": false,
+        "code_bytes": 72
+      },
+      {
+        "name": "drawChar",
+        "signature": "(CIII)V",
+        "native": false,
+        "code_bytes": 232
+      },
+      {
+        "name": "drawChars",
+        "signature": "([CIIIII)V",
+        "native": false,
+        "code_bytes": 212
+      },
+      {
+        "name": "drawImage",
+        "signature": "(Lcom/globalfun/adventuretime/free/Image;III)V",
+        "native": false,
+        "code_bytes": 120
+      },
+      {
+        "name": "drawLine",
+        "signature": "(IIII)V",
+        "native": false,
+        "code_bytes": 48
+      },
+      {
+        "name": "drawRGB",
+        "signature": "([IIIIIIIZ)V",
+        "native": false,
+        "code_bytes": 50
+      },
+      {
+        "name": "drawRGB",
+        "signature": "([IIIIIIIZFF)V",
+        "native": false,
+        "code_bytes": 124
+      },
+      {
+        "name": "drawRect",
+        "signature": "(IIII)V",
+        "native": false,
+        "code_bytes": 56
+      },
+      {
+        "name": "drawRegion",
+        "signature": "(Lcom/globalfun/adventuretime/free/Image;IIIIIIII)V",
+        "native": false,
+        "code_bytes": 522
+      },
+      {
+        "name": "drawRoundRect",
+        "signature": "(IIIIII)V",
+        "native": false,
+        "code_bytes": 70
+      },
+      {
+        "name": "drawString",
+        "signature": "(Ljava/lang/String;III)V",
+        "native": false,
+        "code_bytes": 192
+      },
+      {
+        "name": "drawSubstring",
+        "signature": "(Ljava/lang/String;IIIII)V",
+        "native": false,
+        "code_bytes": 200
+      },
+      {
+        "name": "fillAlphaRect",
+        "signature": "(IIIII)V",
+        "native": false,
+        "code_bytes": 88
+      },
+      {
+        "name": "fillAlphaRoundRect",
+        "signature": "(IIIIIII)V",
+        "native": false,
+        "code_bytes": 102
+      },
+      {
+        "name": "fillArc",
+        "signature": "(IIIIII)V",
+        "native": false,
+        "code_bytes": 72
+      },
+      {
+        "name": "fillRect",
+        "signature": "(IIII)V",
+        "native": false,
+        "code_bytes": 56
+      },
+      {
+        "name": "fillRoundRect",
+        "signature": "(IIIIII)V",
+        "native": false,
+        "code_bytes": 70
+      },
+      {
+        "name": "fillTriangle",
+        "signature": "(IIIIII)V",
+        "native": false,
+        "code_bytes": 92
+      },
+      {
+        "name": "getClipHeight",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 22
+      },
+      {
+        "name": "getClipWidth",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 22
+      },
+      {
+        "name": "getClipX",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 18
+      },
+      {
+        "name": "getClipY",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 18
+      },
+      {
+        "name": "getColor",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 14
+      },
+      {
+        "name": "getFont",
+        "signature": "()Lcom/globalfun/adventuretime/free/Font;",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "getTranslateX",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "getTranslateY",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "setCanvas",
+        "signature": "(Landroid/graphics/Canvas;)V",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "setClip",
+        "signature": "(IIII)V",
+        "native": false,
+        "code_bytes": 252
+      },
+      {
+        "name": "setColor",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 28
+      },
+      {
+        "name": "setColor",
+        "signature": "(III)V",
+        "native": false,
+        "code_bytes": 38
+      },
+      {
+        "name": "setFont",
+        "signature": "(Lcom/globalfun/adventuretime/free/Font;)V",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "setStrokeStyle",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 34
+      },
+      {
+        "name": "translate",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 22
+      }
+    ],
+    "com.globalfun.adventuretime.free.Image": [
+      {
+        "name": "<init>",
+        "signature": "(Landroid/graphics/Bitmap;)V",
+        "native": false,
+        "code_bytes": 28
+      },
+      {
+        "name": "createImage",
+        "signature": "(II)Lcom/globalfun/adventuretime/free/Image;",
+        "native": false,
+        "code_bytes": 12
+      },
+      {
+        "name": "createImage",
+        "signature": "(IIZ)Lcom/globalfun/adventuretime/free/Image;",
+        "native": false,
+        "code_bytes": 34
+      },
+      {
+        "name": "createImage",
+        "signature": "(Lcom/globalfun/adventuretime/free/Image;IIIII)Lcom/globalfun/adventuretime/free/Image;",
+        "native": false,
+        "code_bytes": 28
+      },
+      {
+        "name": "createImage",
+        "signature": "(Ljava/lang/String;)Lcom/globalfun/adventuretime/free/Image;",
+        "native": false,
+        "code_bytes": 104
+      },
+      {
+        "name": "createImage",
+        "signature": "([BII)Lcom/globalfun/adventuretime/free/Image;",
+        "native": false,
+        "code_bytes": 26
+      },
+      {
+        "name": "createRGBImage",
+        "signature": "([IIIZ)Lcom/globalfun/adventuretime/free/Image;",
+        "native": false,
+        "code_bytes": 24
+      },
+      {
+        "name": "loadBitmap",
+        "signature": "(Landroid/graphics/drawable/Drawable;Landroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;",
+        "native": false,
+        "code_bytes": 50
+      },
+      {
+        "name": "loadImage",
+        "signature": "(Landroid/graphics/drawable/Drawable;Landroid/graphics/Bitmap$Config;)Lcom/globalfun/adventuretime/free/Image;",
+        "native": false,
+        "code_bytes": 20
+      },
+      {
+        "name": "loadImage",
+        "signature": "([BII)Lcom/globalfun/adventuretime/free/Image;",
+        "native": false,
+        "code_bytes": 10
+      },
+      {
+        "name": "convertToBitmapConfig",
+        "signature": "(Landroid/graphics/Bitmap$Config;)V",
+        "native": false,
+        "code_bytes": 100
+      },
+      {
+        "name": "getBitmap",
+        "signature": "()Landroid/graphics/Bitmap;",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "getGraphics",
+        "signature": "()Lcom/globalfun/adventuretime/free/Graphics;",
+        "native": false,
+        "code_bytes": 58
+      },
+      {
+        "name": "getHeight",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 14
+      },
+      {
+        "name": "getRGB",
+        "signature": "([IIIIIII)V",
+        "native": false,
+        "code_bytes": 26
+      },
+      {
+        "name": "getWidth",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 14
+      },
+      {
+        "name": "paint",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 18
+      },
+      {
+        "name": "setRefPixelPosition",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 10
+      },
+      {
+        "name": "setTransform",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 244
+      }
+    ],
+    "com.globalfun.adventuretime.free.Main$3": [
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "run",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 28
+      }
+    ],
+    "com.globalfun.adventuretime.free.Main$5": [
+      {
+        "name": "<init>",
+        "signature": "(Lcom/globalfun/adventuretime/free/Main;)V",
+        "native": false,
+        "code_bytes": 12
+      },
+      {
+        "name": "onClick",
+        "signature": "(Landroid/content/DialogInterface;I)V",
+        "native": false,
+        "code_bytes": 2
+      }
+    ],
+    "com.globalfun.adventuretime.free.Main$6": [
+      {
+        "name": "<init>",
+        "signature": "(Lcom/globalfun/adventuretime/free/Main;)V",
+        "native": false,
+        "code_bytes": 12
+      },
+      {
+        "name": "onClick",
+        "signature": "(Landroid/content/DialogInterface;I)V",
+        "native": false,
+        "code_bytes": 2
+      }
+    ],
+    "com.globalfun.adventuretime.free.Main$7": [
+      {
+        "name": "<init>",
+        "signature": "(Lcom/globalfun/adventuretime/free/Main;)V",
+        "native": false,
+        "code_bytes": 12
+      },
+      {
+        "name": "run",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 14
+      }
+    ],
+    "com.globalfun.adventuretime.free.Main": [
+      {
+        "name": "<clinit>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 74
+      },
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 22
+      },
+      {
+        "name": "access$0",
+        "signature": "(Lcom/globalfun/adventuretime/free/Main;Landroid/content/Intent;)V",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "access$1",
+        "signature": "(Lcom/globalfun/adventuretime/free/Main;Landroid/content/Intent;)V",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "copyInt",
+        "signature": "([BII)V",
+        "native": false,
+        "code_bytes": 66
+      },
+      {
+        "name": "crc",
+        "signature": "(I[BII)I",
+        "native": false,
+        "code_bytes": 138
+      },
+      {
+        "name": "createMatte",
+        "signature": "([BI)Lcom/globalfun/adventuretime/free/Image;",
+        "native": false,
+        "code_bytes": 122
+      },
+      {
+        "name": "displayInterstitial",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 22
+      },
+      {
+        "name": "getLogMessages",
+        "signature": "()Ljava/lang/String;",
+        "native": false,
+        "code_bytes": 4
+      },
+      {
+        "name": "logMessage",
+        "signature": "(Ljava/lang/String;)V",
+        "native": false,
+        "code_bytes": 2
+      },
+      {
+        "name": "parseInt",
+        "signature": "([BI)I",
+        "native": false,
+        "code_bytes": 64
+      },
+      {
+        "name": "setChunk",
+        "signature": "(Ljava/lang/String;[B[B)[B",
+        "native": false,
+        "code_bytes": 154
+      },
+      {
+        "name": "showMoreApps",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 2
+      },
+      {
+        "name": "destroyApp",
+        "signature": "(Z)V",
+        "native": false,
+        "code_bytes": 12
+      },
+      {
+        "name": "exitApplication",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 26
+      },
+      {
+        "name": "getAppProperty",
+        "signature": "(Ljava/lang/String;)Ljava/lang/String;",
+        "native": false,
+        "code_bytes": 22
+      },
+      {
+        "name": "getResourceAsStream",
+        "signature": "(Ljava/lang/String;)Ljava/io/InputStream;",
+        "native": false,
+        "code_bytes": 114
+      },
+      {
+        "name": "getVersionName",
+        "signature": "()Ljava/lang/String;",
+        "native": false,
+        "code_bytes": 38
+      },
+      {
+        "name": "onCreate",
+        "signature": "(Landroid/os/Bundle;)V",
+        "native": false,
+        "code_bytes": 564
+      },
+      {
+        "name": "onCreateDialog",
+        "signature": "(I)Landroid/app/Dialog;",
+        "native": false,
+        "code_bytes": 96
+      },
+      {
+        "name": "onDestroy",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "onPause",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 44
+      },
+      {
+        "name": "onPrepareDialog",
+        "signature": "(ILandroid/app/Dialog;)V",
+        "native": false,
+        "code_bytes": 28
+      },
+      {
+        "name": "onRestart",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 296
+      },
+      {
+        "name": "onResume",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 76
+      },
+      {
+        "name": "onStart",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 28
+      },
+      {
+        "name": "onStop",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 34
+      },
+      {
+        "name": "pauseApp",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 2
+      },
+      {
+        "name": "platformRequest",
+        "signature": "(Ljava/lang/String;)Z",
+        "native": false,
+        "code_bytes": 12
+      },
+      {
+        "name": "showAds",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 30
+      },
+      {
+        "name": "showErrorDialog",
+        "signature": "(Ljava/lang/String;)V",
+        "native": false,
+        "code_bytes": 22
+      },
+      {
+        "name": "startApp",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 12
+      },
+      {
+        "name": "vibrate",
+        "signature": "(I)Z",
+        "native": false,
+        "code_bytes": 44
+      }
+    ],
+    "com.globalfun.adventuretime.free.R$attr": [
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      }
+    ],
+    "com.globalfun.adventuretime.free.R$color": [
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      }
+    ],
+    "com.globalfun.adventuretime.free.R$dimen": [
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      }
+    ],
+    "com.globalfun.adventuretime.free.R$drawable": [
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      }
+    ],
+    "com.globalfun.adventuretime.free.R$id": [
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      }
+    ],
+    "com.globalfun.adventuretime.free.R$integer": [
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      }
+    ],
+    "com.globalfun.adventuretime.free.R$layout": [
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      }
+    ],
+    "com.globalfun.adventuretime.free.R$raw": [
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      }
+    ],
+    "com.globalfun.adventuretime.free.R$string": [
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      }
+    ],
+    "com.globalfun.adventuretime.free.R$style": [
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      }
+    ],
+    "com.globalfun.adventuretime.free.R$styleable": [
+      {
+        "name": "<clinit>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 232
+      },
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      }
+    ],
+    "com.globalfun.adventuretime.free.R": [
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      }
+    ],
+    "com.globalfun.adventuretime.free.RecordComparator": [
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      }
+    ],
+    "com.globalfun.adventuretime.free.RecordEnumeration": [
+      {
+        "name": "<init>",
+        "signature": "(Ljava/util/List;I)V",
+        "native": false,
+        "code_bytes": 26
+      },
+      {
+        "name": "hasNextElement",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 20
+      },
+      {
+        "name": "nextRecord",
+        "signature": "()[B",
+        "native": false,
+        "code_bytes": 66
+      },
+      {
+        "name": "nextRecordId",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 34
+      }
+    ],
+    "com.globalfun.adventuretime.free.RecordFilter": [
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      }
+    ],
+    "com.globalfun.adventuretime.free.RecordStore": [
+      {
+        "name": "<clinit>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 56
+      },
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "CreateNewRecordStore",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 22
+      },
+      {
+        "name": "deleteRecordStore",
+        "signature": "(Ljava/lang/String;)V",
+        "native": false,
+        "code_bytes": 84
+      },
+      {
+        "name": "getIntBytes",
+        "signature": "(I[BI)[B",
+        "native": false,
+        "code_bytes": 66
+      },
+      {
+        "name": "listRecordStores",
+        "signature": "()[Ljava/lang/String;",
+        "native": false,
+        "code_bytes": 158
+      },
+      {
+        "name": "openRecordStore",
+        "signature": "(Ljava/lang/String;Z)Lcom/globalfun/adventuretime/free/RecordStore;",
+        "native": false,
+        "code_bytes": 198
+      },
+      {
+        "name": "parseInt",
+        "signature": "([BI)I",
+        "native": false,
+        "code_bytes": 64
+      },
+      {
+        "name": "readDataFromInputStream",
+        "signature": "(Ljava/io/InputStream;)V",
+        "native": false,
+        "code_bytes": 166
+      },
+      {
+        "name": "saveRecordStoreToFile",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 208
+      },
+      {
+        "name": "addRecord",
+        "signature": "([BII)I",
+        "native": false,
+        "code_bytes": 48
+      },
+      {
+        "name": "closeRecordStore",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 18
+      },
+      {
+        "name": "enumerateRecords",
+        "signature": "(Lcom/globalfun/adventuretime/free/RecordFilter;Lcom/globalfun/adventuretime/free/RecordComparator;Z)Lcom/globalfun/adventuretime/free/RecordEnumeration;",
+        "native": false,
+        "code_bytes": 20
+      },
+      {
+        "name": "getNumRecords",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 14
+      },
+      {
+        "name": "getRecord",
+        "signature": "(I)[B",
+        "native": false,
+        "code_bytes": 18
+      },
+      {
+        "name": "getRecord",
+        "signature": "(I[BI)[B",
+        "native": false,
+        "code_bytes": 28
+      },
+      {
+        "name": "setRecord",
+        "signature": "(I[BII)V",
+        "native": false,
+        "code_bytes": 82
+      }
+    ],
+    "com.globalfun.adventuretime.free.RecordStoreException": [
+      {
+        "name": "<init>",
+        "signature": "(Ljava/lang/String;)V",
+        "native": false,
+        "code_bytes": 8
+      }
+    ],
+    "com.globalfun.adventuretime.free.Resources": [
+      {
+        "name": "<clinit>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 4992
+      },
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 176
+      }
+    ],
+    "com.globalfun.adventuretime.free.Room": [
+      {
+        "name": "<clinit>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 632
+      },
+      {
+        "name": "<init>",
+        "signature": "(Lcom/globalfun/adventuretime/free/Engine;)V",
+        "native": false,
+        "code_bytes": 74
+      },
+      {
+        "name": "checkFlag",
+        "signature": "(I)Z",
+        "native": false,
+        "code_bytes": 46
+      },
+      {
+        "name": "closeAllDoors",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 88
+      },
+      {
+        "name": "getDifference",
+        "signature": "(III)I",
+        "native": false,
+        "code_bytes": 30
+      },
+      {
+        "name": "isAbyss",
+        "signature": "(II)Z",
+        "native": false,
+        "code_bytes": 82
+      },
+      {
+        "name": "openAllDoors",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 56
+      },
+      {
+        "name": "openGate",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 44
+      },
+      {
+        "name": "processObject",
+        "signature": "(IIIIZ)V",
+        "native": false,
+        "code_bytes": 124
+      },
+      {
+        "name": "setAbyss",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 144
+      },
+      {
+        "name": "setShadow",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 238
+      },
+      {
+        "name": "setTempFlag",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 20
+      },
+      {
+        "name": "canMoveTo",
+        "signature": "(IIZZ)Z",
+        "native": false,
+        "code_bytes": 380
+      },
+      {
+        "name": "canMoveToTile",
+        "signature": "(II)Z",
+        "native": false,
+        "code_bytes": 114
+      },
+      {
+        "name": "enter",
+        "signature": "(IIZZ)V",
+        "native": false,
+        "code_bytes": 428
+      },
+      {
+        "name": "enteredRoom",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 38
+      },
+      {
+        "name": "exit",
+        "signature": "(III)V",
+        "native": false,
+        "code_bytes": 96
+      },
+      {
+        "name": "exitToDungeon",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 16
+      },
+      {
+        "name": "focus",
+        "signature": "(IIZ)V",
+        "native": false,
+        "code_bytes": 184
+      },
+      {
+        "name": "getCommand",
+        "signature": "(III)I",
+        "native": false,
+        "code_bytes": 68
+      },
+      {
+        "name": "getIndex",
+        "signature": "(I[B)I",
+        "native": false,
+        "code_bytes": 22
+      },
+      {
+        "name": "heroMoved",
+        "signature": "(IIII)V",
+        "native": false,
+        "code_bytes": 204
+      },
+      {
+        "name": "insideX",
+        "signature": "(I)I",
+        "native": false,
+        "code_bytes": 28
+      },
+      {
+        "name": "insideY",
+        "signature": "(I)I",
+        "native": false,
+        "code_bytes": 28
+      },
+      {
+        "name": "isAtDoor",
+        "signature": "(IIII)I",
+        "native": false,
+        "code_bytes": 88
+      },
+      {
+        "name": "isOutside",
+        "signature": "(IIZ)Z",
+        "native": false,
+        "code_bytes": 40
+      },
+      {
+        "name": "isType",
+        "signature": "(I[B)Z",
+        "native": false,
+        "code_bytes": 20
+      },
+      {
+        "name": "lift",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 60
+      },
+      {
+        "name": "load",
+        "signature": "(Lcom/globalfun/adventuretime/free/GameCanvas;IZ)V",
+        "native": false,
+        "code_bytes": 2034
+      },
+      {
+        "name": "onEntrance",
+        "signature": "(II)Z",
+        "native": false,
+        "code_bytes": 78
+      },
+      {
+        "name": "openChest",
+        "signature": "(Lcom/globalfun/adventuretime/free/Actor;I)V",
+        "native": false,
+        "code_bytes": 130
+      },
+      {
+        "name": "paint",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 748
+      },
+      {
+        "name": "place",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 60
+      },
+      {
+        "name": "pressSwitch",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 62
+      },
+      {
+        "name": "processCommands",
+        "signature": "(Z)V",
+        "native": false,
+        "code_bytes": 1000
+      },
+      {
+        "name": "projectX",
+        "signature": "(I)I",
+        "native": false,
+        "code_bytes": 10
+      },
+      {
+        "name": "projectY",
+        "signature": "(I)I",
+        "native": false,
+        "code_bytes": 10
+      },
+      {
+        "name": "push",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 134
+      },
+      {
+        "name": "roomCleared",
+        "signature": "(Z)V",
+        "native": false,
+        "code_bytes": 68
+      },
+      {
+        "name": "roomLit",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 24
+      },
+      {
+        "name": "setTalking",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 40
+      },
+      {
+        "name": "setViewport",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 42
+      },
+      {
+        "name": "talk",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 48
+      },
+      {
+        "name": "talkComplete",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 140
+      },
+      {
+        "name": "talkToNPC",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 58
+      },
+      {
+        "name": "update",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      }
+    ],
+    "com.globalfun.adventuretime.free.Touch$TouchRegion": [
+      {
+        "name": "<init>",
+        "signature": "(Lcom/globalfun/adventuretime/free/Touch;I)V",
+        "native": false,
+        "code_bytes": 16
+      },
+      {
+        "name": "<init>",
+        "signature": "(Lcom/globalfun/adventuretime/free/Touch;ILcom/globalfun/adventuretime/free/Touch$TouchRegion;)V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "access$1",
+        "signature": "(Lcom/globalfun/adventuretime/free/Touch$TouchRegion;)I",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "access$10",
+        "signature": "(Lcom/globalfun/adventuretime/free/Touch$TouchRegion;)V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "access$11",
+        "signature": "(Lcom/globalfun/adventuretime/free/Touch$TouchRegion;Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "access$12",
+        "signature": "(Lcom/globalfun/adventuretime/free/Touch$TouchRegion;)Z",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "access$13",
+        "signature": "(Lcom/globalfun/adventuretime/free/Touch$TouchRegion;IIII)V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "access$14",
+        "signature": "(Lcom/globalfun/adventuretime/free/Touch$TouchRegion;II)V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "access$15",
+        "signature": "(Lcom/globalfun/adventuretime/free/Touch$TouchRegion;II)V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "access$16",
+        "signature": "(Lcom/globalfun/adventuretime/free/Touch$TouchRegion;)V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "access$17",
+        "signature": "(Lcom/globalfun/adventuretime/free/Touch$TouchRegion;)I",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "access$18",
+        "signature": "(Lcom/globalfun/adventuretime/free/Touch$TouchRegion;)I",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "access$2",
+        "signature": "(Lcom/globalfun/adventuretime/free/Touch$TouchRegion;)Z",
+        "native": false,
+        "code_bytes": 10
+      },
+      {
+        "name": "access$3",
+        "signature": "(Lcom/globalfun/adventuretime/free/Touch$TouchRegion;)I",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "access$4",
+        "signature": "(Lcom/globalfun/adventuretime/free/Touch$TouchRegion;)Z",
+        "native": false,
+        "code_bytes": 10
+      },
+      {
+        "name": "access$5",
+        "signature": "(Lcom/globalfun/adventuretime/free/Touch$TouchRegion;IIZ)V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "access$6",
+        "signature": "(Lcom/globalfun/adventuretime/free/Touch$TouchRegion;Z)V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "access$7",
+        "signature": "(Lcom/globalfun/adventuretime/free/Touch$TouchRegion;II)V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "access$8",
+        "signature": "(Lcom/globalfun/adventuretime/free/Touch$TouchRegion;)Z",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "access$9",
+        "signature": "(Lcom/globalfun/adventuretime/free/Touch$TouchRegion;II)I",
+        "native": false,
+        "code_bytes": 10
+      },
+      {
+        "name": "dragged",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 276
+      },
+      {
+        "name": "getDistance",
+        "signature": "(II)I",
+        "native": false,
+        "code_bytes": 182
+      },
+      {
+        "name": "isPressed",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 16
+      },
+      {
+        "name": "isReleased",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 16
+      },
+      {
+        "name": "paint",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 74
+      },
+      {
+        "name": "pressed",
+        "signature": "(IIZ)V",
+        "native": false,
+        "code_bytes": 118
+      },
+      {
+        "name": "released",
+        "signature": "(Z)V",
+        "native": false,
+        "code_bytes": 82
+      },
+      {
+        "name": "reset",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 34
+      },
+      {
+        "name": "setDrag",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 10
+      },
+      {
+        "name": "setRegion",
+        "signature": "(IIII)V",
+        "native": false,
+        "code_bytes": 108
+      },
+      {
+        "name": "setType",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 10
+      },
+      {
+        "name": "setVolatile",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      }
+    ],
+    "com.globalfun.adventuretime.free.UtilsAndroid": [
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "ShareGeneric",
+        "signature": "(Ljava/lang/String;)V",
+        "native": false,
+        "code_bytes": 92
+      },
+      {
+        "name": "onEndSessionFlurry",
+        "signature": "(Landroid/app/Activity;)V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "onStartSessionFlurry",
+        "signature": "(Landroid/app/Activity;Ljava/lang/String;)V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "sendFlurry",
+        "signature": "(Ljava/lang/String;)V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "sendFlurryParams",
+        "signature": "(Ljava/lang/String;Ljava/util/Map;)V",
+        "native": false,
+        "code_bytes": 8
+      }
+    ],
+    "com.globalfun.adventuretime.free.Actor": [
+      {
+        "name": "<clinit>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 1148
+      },
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "addActor",
+        "signature": "()Lcom/globalfun/adventuretime/free/Actor;",
+        "native": false,
+        "code_bytes": 22
+      },
+      {
+        "name": "addActor",
+        "signature": "(I)Lcom/globalfun/adventuretime/free/Actor;",
+        "native": false,
+        "code_bytes": 28
+      },
+      {
+        "name": "addAll",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 126
+      },
+      {
+        "name": "addEffect",
+        "signature": "(Lcom/globalfun/adventuretime/free/Actor;I)V",
+        "native": false,
+        "code_bytes": 78
+      },
+      {
+        "name": "addEffectToSprite",
+        "signature": "(IZ)Lcom/globalfun/adventuretime/free/Actor;",
+        "native": false,
+        "code_bytes": 238
+      },
+      {
+        "name": "addObject",
+        "signature": "(III)Lcom/globalfun/adventuretime/free/Actor;",
+        "native": false,
+        "code_bytes": 40
+      },
+      {
+        "name": "addToStack",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 78
+      },
+      {
+        "name": "backToGame",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 12
+      },
+      {
+        "name": "bossKilled",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 42
+      },
+      {
+        "name": "bounce",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 90
+      },
+      {
+        "name": "canHitHero",
+        "signature": "(III)Z",
+        "native": false,
+        "code_bytes": 134
+      },
+      {
+        "name": "canMove",
+        "signature": "(III)I",
+        "native": false,
+        "code_bytes": 166
+      },
+      {
+        "name": "canMoveTo",
+        "signature": "(IIZ)Z",
+        "native": false,
+        "code_bytes": 68
+      },
+      {
+        "name": "celebrate",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "checkForExit",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 312
+      },
+      {
+        "name": "collides",
+        "signature": "(IIII)Z",
+        "native": false,
+        "code_bytes": 68
+      },
+      {
+        "name": "collides",
+        "signature": "(Lcom/globalfun/adventuretime/free/Actor;)Z",
+        "native": false,
+        "code_bytes": 88
+      },
+      {
+        "name": "doAction",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 356
+      },
+      {
+        "name": "doHammer",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 208
+      },
+      {
+        "name": "doItemAction",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 916
+      },
+      {
+        "name": "doSword",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 268
+      },
+      {
+        "name": "getAngle",
+        "signature": "(II)I",
+        "native": false,
+        "code_bytes": 270
+      },
+      {
+        "name": "getCollision",
+        "signature": "(II)Lcom/globalfun/adventuretime/free/Actor;",
+        "native": false,
+        "code_bytes": 114
+      },
+      {
+        "name": "getDirection",
+        "signature": "(II)I",
+        "native": false,
+        "code_bytes": 50
+      },
+      {
+        "name": "getMagnitude",
+        "signature": "(II)I",
+        "native": false,
+        "code_bytes": 34
+      },
+      {
+        "name": "getOccurence",
+        "signature": "(I)Z",
+        "native": false,
+        "code_bytes": 28
+      },
+      {
+        "name": "getRandom",
+        "signature": "(I)I",
+        "native": false,
+        "code_bytes": 10
+      },
+      {
+        "name": "getRandomBoolean",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 10
+      },
+      {
+        "name": "getTalkingY",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 46
+      },
+      {
+        "name": "hit",
+        "signature": "(Lcom/globalfun/adventuretime/free/Actor;I)V",
+        "native": false,
+        "code_bytes": 464
+      },
+      {
+        "name": "increment",
+        "signature": "(II)I",
+        "native": false,
+        "code_bytes": 18
+      },
+      {
+        "name": "init",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 98
+      },
+      {
+        "name": "initActors",
+        "signature": "(Lcom/globalfun/adventuretime/free/Engine;)V",
+        "native": false,
+        "code_bytes": 38
+      },
+      {
+        "name": "initEffect",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 74
+      },
+      {
+        "name": "loadBossGfx",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 234
+      },
+      {
+        "name": "loadGfx",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 392
+      },
+      {
+        "name": "loadSprite",
+        "signature": "(I)[Lcom/globalfun/adventuretime/free/Sprite;",
+        "native": false,
+        "code_bytes": 142
+      },
+      {
+        "name": "lock",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "monsterIsHit",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 112
+      },
+      {
+        "name": "move",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 30
+      },
+      {
+        "name": "move",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 56
+      },
+      {
+        "name": "move",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 66
+      },
+      {
+        "name": "move",
+        "signature": "(IIZ)Z",
+        "native": false,
+        "code_bytes": 248
+      },
+      {
+        "name": "moveSteps",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 28
+      },
+      {
+        "name": "nudge",
+        "signature": "(Lcom/globalfun/adventuretime/free/Actor;)V",
+        "native": false,
+        "code_bytes": 78
+      },
+      {
+        "name": "paintActors",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 22
+      },
+      {
+        "name": "paintHero",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;II)V",
+        "native": false,
+        "code_bytes": 36
+      },
+      {
+        "name": "paintLocation",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 134
+      },
+      {
+        "name": "paintReady",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 44
+      },
+      {
+        "name": "paintShadow",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 186
+      },
+      {
+        "name": "paintShadows",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 22
+      },
+      {
+        "name": "paintSprite",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;III)V",
+        "native": false,
+        "code_bytes": 64
+      },
+      {
+        "name": "pause",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 14
+      },
+      {
+        "name": "push",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 72
+      },
+      {
+        "name": "pushBack",
+        "signature": "(Lcom/globalfun/adventuretime/free/Actor;)V",
+        "native": false,
+        "code_bytes": 174
+      },
+      {
+        "name": "pushBackTile",
+        "signature": "(III)I",
+        "native": false,
+        "code_bytes": 108
+      },
+      {
+        "name": "pushInsideRoom",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 96
+      },
+      {
+        "name": "setAngleVelocity",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 54
+      },
+      {
+        "name": "setAnimation",
+        "signature": "(ILcom/globalfun/adventuretime/free/Animator;)Lcom/globalfun/adventuretime/free/Animator;",
+        "native": false,
+        "code_bytes": 182
+      },
+      {
+        "name": "setAnimation",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 12
+      },
+      {
+        "name": "setControls",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 10
+      },
+      {
+        "name": "setDirection",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 84
+      },
+      {
+        "name": "setFx",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 22
+      },
+      {
+        "name": "setTalking",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "setTalking",
+        "signature": "(Z)V",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "setVelocity",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 42
+      },
+      {
+        "name": "slide",
+        "signature": "(Z)Z",
+        "native": false,
+        "code_bytes": 198
+      },
+      {
+        "name": "smash",
+        "signature": "(Lcom/globalfun/adventuretime/free/Actor;)V",
+        "native": false,
+        "code_bytes": 28
+      },
+      {
+        "name": "start",
+        "signature": "(Lcom/globalfun/adventuretime/free/Room;)V",
+        "native": false,
+        "code_bytes": 174
+      },
+      {
+        "name": "stop",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 12
+      },
+      {
+        "name": "testCollision",
+        "signature": "(Lcom/globalfun/adventuretime/free/Actor;)Z",
+        "native": false,
+        "code_bytes": 224
+      },
+      {
+        "name": "unloadBossGfx",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 18
+      },
+      {
+        "name": "update",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 248
+      },
+      {
+        "name": "updateActors",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 348
+      },
+      {
+        "name": "updateArrow",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 278
+      },
+      {
+        "name": "updateBiclops",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 724
+      },
+      {
+        "name": "updateBlade",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 70
+      },
+      {
+        "name": "updateBomb",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 290
+      },
+      {
+        "name": "updateBoss",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 280
+      },
+      {
+        "name": "updateBubble",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 132
+      },
+      {
+        "name": "updateBurger",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 628
+      },
+      {
+        "name": "updateEyeclops",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 340
+      },
+      {
+        "name": "updateFinn",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 2092
+      },
+      {
+        "name": "updateFireCount",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 448
+      },
+      {
+        "name": "updateFlameGuy",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 316
+      },
+      {
+        "name": "updateFx",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 16
+      },
+      {
+        "name": "updateGhost",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 160
+      },
+      {
+        "name": "updateIceKing",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 564
+      },
+      {
+        "name": "updateLever",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 66
+      },
+      {
+        "name": "updateMonster",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 592
+      },
+      {
+        "name": "updateNPC",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 356
+      },
+      {
+        "name": "updatePenguin",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 296
+      },
+      {
+        "name": "updatePickup",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 458
+      },
+      {
+        "name": "updatePillar",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 154
+      },
+      {
+        "name": "updatePosition",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 54
+      },
+      {
+        "name": "updateProjectile",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 320
+      },
+      {
+        "name": "updateSkeleton",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 560
+      },
+      {
+        "name": "updateSlimeCube",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 220
+      },
+      {
+        "name": "updateSpikes",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 132
+      },
+      {
+        "name": "updateSpiky",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 300
+      },
+      {
+        "name": "updateSwitch",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 32
+      },
+      {
+        "name": "updateTile",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 148
+      },
+      {
+        "name": "updateTrap",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 132
+      },
+      {
+        "name": "updateZombie1",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 252
+      },
+      {
+        "name": "updateZombie2",
+        "signature": "(Z)V",
+        "native": false,
+        "code_bytes": 192
+      },
+      {
+        "name": "use",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 92
+      },
+      {
+        "name": "add",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 722
+      },
+      {
+        "name": "addEffect",
+        "signature": "(I)Lcom/globalfun/adventuretime/free/Actor;",
+        "native": false,
+        "code_bytes": 42
+      },
+      {
+        "name": "addJake",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 114
+      },
+      {
+        "name": "centerOnGrid",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 122
+      },
+      {
+        "name": "drop",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 32
+      },
+      {
+        "name": "enterDoor",
+        "signature": "(IIIZ)V",
+        "native": false,
+        "code_bytes": 120
+      },
+      {
+        "name": "enterPrincess",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 36
+      },
+      {
+        "name": "enterRoom",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 22
+      },
+      {
+        "name": "enterRoom",
+        "signature": "(III)V",
+        "native": false,
+        "code_bytes": 148
+      },
+      {
+        "name": "fall",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 26
+      },
+      {
+        "name": "found",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 66
+      },
+      {
+        "name": "getAngle",
+        "signature": "(Lcom/globalfun/adventuretime/free/Actor;)I",
+        "native": false,
+        "code_bytes": 30
+      },
+      {
+        "name": "getDirection",
+        "signature": "(Lcom/globalfun/adventuretime/free/Actor;)I",
+        "native": false,
+        "code_bytes": 30
+      },
+      {
+        "name": "getDistance",
+        "signature": "(Lcom/globalfun/adventuretime/free/Actor;)I",
+        "native": false,
+        "code_bytes": 30
+      },
+      {
+        "name": "init",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 10
+      },
+      {
+        "name": "init",
+        "signature": "(I[Lcom/globalfun/adventuretime/free/Sprite;)V",
+        "native": false,
+        "code_bytes": 268
+      },
+      {
+        "name": "isOutsideRoom",
+        "signature": "(IIZ)I",
+        "native": false,
+        "code_bytes": 74
+      },
+      {
+        "name": "jump",
+        "signature": "(ZI[IZ)Z",
+        "native": false,
+        "code_bytes": 178
+      },
+      {
+        "name": "paint",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 492
+      },
+      {
+        "name": "setCommand",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "setDirection",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "setLocation",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 50
+      },
+      {
+        "name": "setLocation",
+        "signature": "(Lcom/globalfun/adventuretime/free/Actor;)V",
+        "native": false,
+        "code_bytes": 24
+      },
+      {
+        "name": "translate",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 28
+      },
+      {
+        "name": "twist",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 18
+      },
+      {
+        "name": "updateJake",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 564
+      },
+      {
+        "name": "used",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 84
+      }
+    ],
+    "com.globalfun.adventuretime.free.CustomFont": [
+      {
+        "name": "<init>",
+        "signature": "(Ljava/lang/String;)V",
+        "native": false,
+        "code_bytes": 358
+      },
+      {
+        "name": "getIndex",
+        "signature": "(I)I",
+        "native": false,
+        "code_bytes": 54
+      },
+      {
+        "name": "charWidth",
+        "signature": "(C)I",
+        "native": false,
+        "code_bytes": 106
+      },
+      {
+        "name": "charsHeight",
+        "signature": "([CII)I",
+        "native": false,
+        "code_bytes": 62
+      },
+      {
+        "name": "charsWidth",
+        "signature": "([CII)I",
+        "native": false,
+        "code_bytes": 44
+      },
+      {
+        "name": "drawChar",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;CII)I",
+        "native": false,
+        "code_bytes": 264
+      },
+      {
+        "name": "drawChars",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;[CII)V",
+        "native": false,
+        "code_bytes": 28
+      },
+      {
+        "name": "drawChars",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;[CIII)V",
+        "native": false,
+        "code_bytes": 88
+      },
+      {
+        "name": "drawString",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;IIII)V",
+        "native": false,
+        "code_bytes": 34
+      },
+      {
+        "name": "drawString",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;Ljava/lang/String;III)V",
+        "native": false,
+        "code_bytes": 26
+      },
+      {
+        "name": "drawStrings",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;[Ljava/lang/String;III)V",
+        "native": false,
+        "code_bytes": 50
+      },
+      {
+        "name": "drawSubstring",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;Ljava/lang/String;IIIII)V",
+        "native": false,
+        "code_bytes": 38
+      },
+      {
+        "name": "getLinesHeight",
+        "signature": "(I)I",
+        "native": false,
+        "code_bytes": 30
+      },
+      {
+        "name": "setMonoSpacing",
+        "signature": "([C)V",
+        "native": false,
+        "code_bytes": 80
+      },
+      {
+        "name": "stringHeight",
+        "signature": "(Ljava/lang/String;)I",
+        "native": false,
+        "code_bytes": 28
+      },
+      {
+        "name": "stringWidth",
+        "signature": "(Ljava/lang/String;)I",
+        "native": false,
+        "code_bytes": 28
+      }
+    ],
+    "com.globalfun.adventuretime.free.Dungeon": [
+      {
+        "name": "<clinit>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 96
+      },
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "loadDungeon",
+        "signature": "(Lcom/globalfun/adventuretime/free/GameCanvas;I)V",
+        "native": false,
+        "code_bytes": 500
+      },
+      {
+        "name": "loadOverworld",
+        "signature": "(Lcom/globalfun/adventuretime/free/GameCanvas;I)V",
+        "native": false,
+        "code_bytes": 164
+      },
+      {
+        "name": "paintAbyss",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;III)V",
+        "native": false,
+        "code_bytes": 66
+      },
+      {
+        "name": "paintActorShadow",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;III)V",
+        "native": false,
+        "code_bytes": 44
+      },
+      {
+        "name": "paintObject",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;III)V",
+        "native": false,
+        "code_bytes": 112
+      },
+      {
+        "name": "paintRoom",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;IIIZ)V",
+        "native": false,
+        "code_bytes": 180
+      },
+      {
+        "name": "paintShadow",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;III)V",
+        "native": false,
+        "code_bytes": 66
+      },
+      {
+        "name": "paintTile",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;IIIZ)V",
+        "native": false,
+        "code_bytes": 212
+      },
+      {
+        "name": "pullImage",
+        "signature": "(Lcom/globalfun/adventuretime/free/GameCanvas;)Lcom/globalfun/adventuretime/free/Image;",
+        "native": false,
+        "code_bytes": 22
+      },
+      {
+        "name": "pullImage",
+        "signature": "(Lcom/globalfun/adventuretime/free/GameCanvas;[B)Lcom/globalfun/adventuretime/free/Image;",
+        "native": false,
+        "code_bytes": 36
+      },
+      {
+        "name": "unload",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 40
+      }
+    ],
+    "com.globalfun.adventuretime.free.GameCanvas": [
+      {
+        "name": "<clinit>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 608
+      },
+      {
+        "name": "<init>",
+        "signature": "(Lcom/globalfun/adventuretime/free/Main;)V",
+        "native": false,
+        "code_bytes": 122
+      },
+      {
+        "name": "garbageCollect",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "getDigits",
+        "signature": "(II)[I",
+        "native": false,
+        "code_bytes": 66
+      },
+      {
+        "name": "getOccurence",
+        "signature": "(I)Z",
+        "native": false,
+        "code_bytes": 28
+      },
+      {
+        "name": "getRandom",
+        "signature": "(I)I",
+        "native": false,
+        "code_bytes": 78
+      },
+      {
+        "name": "getRandomBoolean",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 22
+      },
+      {
+        "name": "getRandomFrequency",
+        "signature": "([I)I",
+        "native": false,
+        "code_bytes": 48
+      },
+      {
+        "name": "randomShuffle",
+        "signature": "([I)V",
+        "native": false,
+        "code_bytes": 12
+      },
+      {
+        "name": "randomShuffle",
+        "signature": "([III)V",
+        "native": false,
+        "code_bytes": 68
+      },
+      {
+        "name": "replace",
+        "signature": "(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;",
+        "native": false,
+        "code_bytes": 18
+      },
+      {
+        "name": "replace",
+        "signature": "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+        "native": false,
+        "code_bytes": 80
+      },
+      {
+        "name": "replace",
+        "signature": "(Ljava/lang/String;[Ljava/lang/String;[I)Ljava/lang/String;",
+        "native": false,
+        "code_bytes": 30
+      },
+      {
+        "name": "translateKey",
+        "signature": "(I)I",
+        "native": false,
+        "code_bytes": 264
+      },
+      {
+        "name": "addSoftkey",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 18
+      },
+      {
+        "name": "clearClip",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 18
+      },
+      {
+        "name": "clearKeyQueue",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 14
+      },
+      {
+        "name": "clearKeyState",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 18
+      },
+      {
+        "name": "clearSoftkeys",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 40
+      },
+      {
+        "name": "clearTouchState",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 0
+      },
+      {
+        "name": "closeStream",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 42
+      },
+      {
+        "name": "createStream",
+        "signature": "(Ljava/lang/String;)Ljava/io/DataInputStream;",
+        "native": false,
+        "code_bytes": 48
+      },
+      {
+        "name": "disableSoftkey",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 32
+      },
+      {
+        "name": "enableSoftkey",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 32
+      },
+      {
+        "name": "exitInput",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "formatText",
+        "signature": "(Lcom/globalfun/adventuretime/free/CustomFont;Ljava/lang/String;I[I)[I",
+        "native": false,
+        "code_bytes": 528
+      },
+      {
+        "name": "getCurrentSoftKey",
+        "signature": "(I)I",
+        "native": false,
+        "code_bytes": 10
+      },
+      {
+        "name": "getDirectional",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 60
+      },
+      {
+        "name": "getHeight",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "getHiScorePosition",
+        "signature": "([II)I",
+        "native": false,
+        "code_bytes": 32
+      },
+      {
+        "name": "getWidth",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "handleEvents",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 842
+      },
+      {
+        "name": "handleKey",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 0
+      },
+      {
+        "name": "hasKeyPressed",
+        "signature": "(I)Z",
+        "native": false,
+        "code_bytes": 18
+      },
+      {
+        "name": "hasKeyQueued",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 16
+      },
+      {
+        "name": "hasSoftkeys",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 34
+      },
+      {
+        "name": "hasStream",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 16
+      },
+      {
+        "name": "hide",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 0
+      },
+      {
+        "name": "hideNotify",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 56
+      },
+      {
+        "name": "inputEvent",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 0
+      },
+      {
+        "name": "insertHiScore",
+        "signature": "([I[Ljava/lang/String;ILjava/lang/String;)I",
+        "native": false,
+        "code_bytes": 58
+      },
+      {
+        "name": "isKeyPressed",
+        "signature": "(I)Z",
+        "native": false,
+        "code_bytes": 18
+      },
+      {
+        "name": "isSoftkeyEnabled",
+        "signature": "(I)Z",
+        "native": false,
+        "code_bytes": 18
+      },
+      {
+        "name": "keyPressed",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 226
+      },
+      {
+        "name": "keyReleased",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 24
+      },
+      {
+        "name": "loadSound",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 62
+      },
+      {
+        "name": "menuCall",
+        "signature": "(I[II)V",
+        "native": false,
+        "code_bytes": 26
+      },
+      {
+        "name": "menuSetCursor",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 2
+      },
+      {
+        "name": "menuSwap",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 16
+      },
+      {
+        "name": "onDraw",
+        "signature": "(Landroid/graphics/Canvas;)V",
+        "native": false,
+        "code_bytes": 58
+      },
+      {
+        "name": "paint",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 14
+      },
+      {
+        "name": "paint",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 40
+      },
+      {
+        "name": "paintCanvas",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 0
+      },
+      {
+        "name": "paintHidden",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 0
+      },
+      {
+        "name": "paintRotated",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 0
+      },
+      {
+        "name": "playSfx",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 10
+      },
+      {
+        "name": "playSound",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 120
+      },
+      {
+        "name": "playSound",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 134
+      },
+      {
+        "name": "playSoundSfx",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 42
+      },
+      {
+        "name": "playerUpdate",
+        "signature": "(Ljava/lang/String;)V",
+        "native": false,
+        "code_bytes": 0
+      },
+      {
+        "name": "pull",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 14
+      },
+      {
+        "name": "pullByteArray",
+        "signature": "()[B",
+        "native": false,
+        "code_bytes": 36
+      },
+      {
+        "name": "pullByteArrays",
+        "signature": "(I)[[B",
+        "native": false,
+        "code_bytes": 58
+      },
+      {
+        "name": "pullImage",
+        "signature": "()Lcom/globalfun/adventuretime/free/Image;",
+        "native": false,
+        "code_bytes": 22
+      },
+      {
+        "name": "pullImageData",
+        "signature": "()[S",
+        "native": false,
+        "code_bytes": 46
+      },
+      {
+        "name": "pullInt",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 14
+      },
+      {
+        "name": "pullIntArray",
+        "signature": "()[I",
+        "native": false,
+        "code_bytes": 46
+      },
+      {
+        "name": "pullResource",
+        "signature": "(Ljava/lang/String;)[B",
+        "native": false,
+        "code_bytes": 30
+      },
+      {
+        "name": "pullShort",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 14
+      },
+      {
+        "name": "pullShortArray",
+        "signature": "()[S",
+        "native": false,
+        "code_bytes": 50
+      },
+      {
+        "name": "pullSprite",
+        "signature": "(II)Lcom/globalfun/adventuretime/free/Sprite;",
+        "native": false,
+        "code_bytes": 20
+      },
+      {
+        "name": "pullStrings",
+        "signature": "(Ljava/lang/String;)[Ljava/lang/String;",
+        "native": false,
+        "code_bytes": 72
+      },
+      {
+        "name": "readFully",
+        "signature": "([B)V",
+        "native": false,
+        "code_bytes": 22
+      },
+      {
+        "name": "readFully",
+        "signature": "([BII)V",
+        "native": false,
+        "code_bytes": 22
+      },
+      {
+        "name": "releaseKeys",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "removeSoftkey",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 32
+      },
+      {
+        "name": "renderText",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;Lcom/globalfun/adventuretime/free/CustomFont;Ljava/lang/String;[IIIIIZ)V",
+        "native": false,
+        "code_bytes": 194
+      },
+      {
+        "name": "rmsRead",
+        "signature": "(I)[B",
+        "native": false,
+        "code_bytes": 66
+      },
+      {
+        "name": "rmsWrite",
+        "signature": "(I[B)Z",
+        "native": false,
+        "code_bytes": 86
+      },
+      {
+        "name": "setScreenSize",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 50
+      },
+      {
+        "name": "show",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 14
+      },
+      {
+        "name": "sizeChanged",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 2
+      },
+      {
+        "name": "skipData",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 12
+      },
+      {
+        "name": "skipResources",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 20
+      },
+      {
+        "name": "stopSound",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 34
+      },
+      {
+        "name": "stopVibrate",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 10
+      },
+      {
+        "name": "textAreaCall",
+        "signature": "(ILcom/globalfun/adventuretime/free/CustomFont;Ljava/lang/String;[III)V",
+        "native": false,
+        "code_bytes": 88
+      },
+      {
+        "name": "textAreaPaint",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;III)V",
+        "native": false,
+        "code_bytes": 108
+      },
+      {
+        "name": "textCanScroll",
+        "signature": "(I)Z",
+        "native": false,
+        "code_bytes": 44
+      },
+      {
+        "name": "textGetScrollY",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 12
+      },
+      {
+        "name": "textSetScroll",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 26
+      },
+      {
+        "name": "touchEvents",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 0
+      },
+      {
+        "name": "vibrate",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 24
+      }
+    ],
+    "com.globalfun.adventuretime.free.Main$4": [
+      {
+        "name": "<init>",
+        "signature": "(Lcom/globalfun/adventuretime/free/Main;)V",
+        "native": false,
+        "code_bytes": 12
+      },
+      {
+        "name": "onLoadListener",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 356
+      }
+    ],
+    "com.globalfun.adventuretime.free.RecordStoreNotFoundException": [
+      {
+        "name": "<init>",
+        "signature": "(Ljava/lang/String;)V",
+        "native": false,
+        "code_bytes": 8
+      }
+    ],
+    "com.globalfun.adventuretime.free.Resources320": [
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 4868
+      }
+    ],
+    "com.globalfun.adventuretime.free.Resources480": [
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 5852
+      }
+    ],
+    "com.globalfun.adventuretime.free.Sprite": [
+      {
+        "name": "<clinit>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 38
+      },
+      {
+        "name": "<init>",
+        "signature": "(Lcom/globalfun/adventuretime/free/Image;II)V",
+        "native": false,
+        "code_bytes": 34
+      },
+      {
+        "name": "getHeight",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "getRawFrameCount",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "getWidth",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "paint",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;III)V",
+        "native": false,
+        "code_bytes": 20
+      },
+      {
+        "name": "paint",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;IIII)V",
+        "native": false,
+        "code_bytes": 88
+      },
+      {
+        "name": "paint",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;IIIZ)V",
+        "native": false,
+        "code_bytes": 92
+      },
+      {
+        "name": "paintTransformed",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;IIII)V",
+        "native": false,
+        "code_bytes": 60
+      },
+      {
+        "name": "setRefPixelPosition",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 10
+      }
+    ],
+    "com.globalfun.adventuretime.free.Main$1": [
+      {
+        "name": "<init>",
+        "signature": "(Lcom/globalfun/adventuretime/free/Main;)V",
+        "native": false,
+        "code_bytes": 12
+      },
+      {
+        "name": "onAdAvailable",
+        "signature": "(Landroid/content/Intent;)V",
+        "native": false,
+        "code_bytes": 22
+      },
+      {
+        "name": "onAdNotAvailable",
+        "signature": "(Lcom/fyber/ads/AdFormat;)V",
+        "native": false,
+        "code_bytes": 16
+      },
+      {
+        "name": "onRequestError",
+        "signature": "(Lcom/fyber/requesters/RequestError;)V",
+        "native": false,
+        "code_bytes": 16
+      }
+    ],
+    "com.globalfun.adventuretime.free.Main$2": [
+      {
+        "name": "<init>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "onAdAvailable",
+        "signature": "(Landroid/content/Intent;)V",
+        "native": false,
+        "code_bytes": 12
+      },
+      {
+        "name": "onAdNotAvailable",
+        "signature": "(Lcom/fyber/ads/AdFormat;)V",
+        "native": false,
+        "code_bytes": 8
+      },
+      {
+        "name": "onRequestError",
+        "signature": "(Lcom/fyber/requesters/RequestError;)V",
+        "native": false,
+        "code_bytes": 2
+      }
+    ],
+    "com.globalfun.adventuretime.free.Touch": [
+      {
+        "name": "<clinit>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 540
+      },
+      {
+        "name": "<init>",
+        "signature": "(Lcom/globalfun/adventuretime/free/Main;)V",
+        "native": false,
+        "code_bytes": 84
+      },
+      {
+        "name": "access$0",
+        "signature": "(Lcom/globalfun/adventuretime/free/Touch;I)V",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "access$1",
+        "signature": "(Lcom/globalfun/adventuretime/free/Touch;)I",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "atan",
+        "signature": "(II)I",
+        "native": false,
+        "code_bytes": 120
+      },
+      {
+        "name": "cos",
+        "signature": "(I)I",
+        "native": false,
+        "code_bytes": 14
+      },
+      {
+        "name": "getEmptyTouch",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 44
+      },
+      {
+        "name": "getRegion",
+        "signature": "(IIZ)I",
+        "native": false,
+        "code_bytes": 68
+      },
+      {
+        "name": "sin",
+        "signature": "(I)I",
+        "native": false,
+        "code_bytes": 104
+      },
+      {
+        "name": "LeftPointerPressed",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 24
+      },
+      {
+        "name": "approx_distance",
+        "signature": "(II)I",
+        "native": false,
+        "code_bytes": 62
+      },
+      {
+        "name": "clearTouch",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 36
+      },
+      {
+        "name": "clearTouchState",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 38
+      },
+      {
+        "name": "getTouch",
+        "signature": "(I)Lcom/globalfun/adventuretime/free/Touch$TouchRegion;",
+        "native": false,
+        "code_bytes": 10
+      },
+      {
+        "name": "intersect",
+        "signature": "(IIII)[I",
+        "native": false,
+        "code_bytes": 46
+      },
+      {
+        "name": "isTouchPressed",
+        "signature": "(I)Z",
+        "native": false,
+        "code_bytes": 14
+      },
+      {
+        "name": "isTouchReleased",
+        "signature": "(I)Z",
+        "native": false,
+        "code_bytes": 18
+      },
+      {
+        "name": "paintTouch",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 36
+      },
+      {
+        "name": "pointerDragged",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 672
+      },
+      {
+        "name": "pointerPressed",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 110
+      },
+      {
+        "name": "pointerReleased",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 80
+      },
+      {
+        "name": "pointerReleasedRight",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 42
+      },
+      {
+        "name": "sqrt",
+        "signature": "(I)I",
+        "native": false,
+        "code_bytes": 110
+      },
+      {
+        "name": "touchEvents",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 248
+      },
+      {
+        "name": "touchHDragged",
+        "signature": "(I)I",
+        "native": false,
+        "code_bytes": 18
+      },
+      {
+        "name": "touchInitialise",
+        "signature": "(IIII)I",
+        "native": false,
+        "code_bytes": 28
+      },
+      {
+        "name": "touchPressPointer",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 16
+      },
+      {
+        "name": "touchSetDrag",
+        "signature": "(III)V",
+        "native": false,
+        "code_bytes": 16
+      },
+      {
+        "name": "touchSetSystem",
+        "signature": "(III)V",
+        "native": false,
+        "code_bytes": 16
+      },
+      {
+        "name": "touchSetVolatile",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 16
+      },
+      {
+        "name": "touchVDragged",
+        "signature": "(I)I",
+        "native": false,
+        "code_bytes": 18
+      }
+    ],
+    "com.globalfun.adventuretime.free.UI": [
+      {
+        "name": "<clinit>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 1576
+      },
+      {
+        "name": "<init>",
+        "signature": "(Lcom/globalfun/adventuretime/free/Main;)V",
+        "native": false,
+        "code_bytes": 96
+      },
+      {
+        "name": "closeScroll",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 48
+      },
+      {
+        "name": "openScroll",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 48
+      },
+      {
+        "name": "paintBackground",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;ZZ)V",
+        "native": false,
+        "code_bytes": 304
+      },
+      {
+        "name": "paintBox",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 128
+      },
+      {
+        "name": "paintControls",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 230
+      },
+      {
+        "name": "paintDigits",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;[III)V",
+        "native": false,
+        "code_bytes": 50
+      },
+      {
+        "name": "paintGame",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 150
+      },
+      {
+        "name": "paintGems",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;I)V",
+        "native": false,
+        "code_bytes": 80
+      },
+      {
+        "name": "paintGmg",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 34
+      },
+      {
+        "name": "paintHearts",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;I)V",
+        "native": false,
+        "code_bytes": 94
+      },
+      {
+        "name": "paintMenu",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 10
+      },
+      {
+        "name": "paintMenu",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;Z)V",
+        "native": false,
+        "code_bytes": 672
+      },
+      {
+        "name": "paintScroll",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;I)V",
+        "native": false,
+        "code_bytes": 472
+      },
+      {
+        "name": "paintSoftkeys",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 136
+      },
+      {
+        "name": "paintStatus",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;I)V",
+        "native": false,
+        "code_bytes": 192
+      },
+      {
+        "name": "paintStatusScreen",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;Z)V",
+        "native": false,
+        "code_bytes": 1412
+      },
+      {
+        "name": "paintText",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 178
+      },
+      {
+        "name": "paintTitle",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;Ljava/lang/String;I)V",
+        "native": false,
+        "code_bytes": 322
+      },
+      {
+        "name": "paintTransition",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 184
+      },
+      {
+        "name": "setLayout",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 3268
+      },
+      {
+        "name": "setSoftkeys",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 264
+      },
+      {
+        "name": "setTouch",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 2000
+      },
+      {
+        "name": "talkNext",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 272
+      },
+      {
+        "name": "actionEvents",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 0
+      },
+      {
+        "name": "checkFlag",
+        "signature": "(II)Z",
+        "native": false,
+        "code_bytes": 0
+      },
+      {
+        "name": "clearState",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 30
+      },
+      {
+        "name": "createLocalisedImage",
+        "signature": "(Ljava/lang/String;)Lcom/globalfun/adventuretime/free/Image;",
+        "native": false,
+        "code_bytes": 10
+      },
+      {
+        "name": "enable",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 20
+      },
+      {
+        "name": "getCurrentWeapon",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 0
+      },
+      {
+        "name": "getMenuItem",
+        "signature": "(I)Ljava/lang/String;",
+        "native": false,
+        "code_bytes": 0
+      },
+      {
+        "name": "handleTouch",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 88
+      },
+      {
+        "name": "hasItem",
+        "signature": "(I)Z",
+        "native": false,
+        "code_bytes": 0
+      },
+      {
+        "name": "hasMultiWeapons",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 0
+      },
+      {
+        "name": "hasObject",
+        "signature": "(I)Z",
+        "native": false,
+        "code_bytes": 0
+      },
+      {
+        "name": "inTransition",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 16
+      },
+      {
+        "name": "inputEvent",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 128
+      },
+      {
+        "name": "isPrincessRescued",
+        "signature": "(I)Z",
+        "native": false,
+        "code_bytes": 0
+      },
+      {
+        "name": "loadText",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 134
+      },
+      {
+        "name": "loadUI",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 402
+      },
+      {
+        "name": "moveCursor",
+        "signature": "(Ljava/lang/String;II)I",
+        "native": false,
+        "code_bytes": 60
+      },
+      {
+        "name": "moveCursor",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 82
+      },
+      {
+        "name": "openHealer",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 112
+      },
+      {
+        "name": "openHelp",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 64
+      },
+      {
+        "name": "openLogo",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 172
+      },
+      {
+        "name": "openMenu",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 492
+      },
+      {
+        "name": "openShop",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 22
+      },
+      {
+        "name": "openTalk",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 74
+      },
+      {
+        "name": "openTransition",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 142
+      },
+      {
+        "name": "openUI",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 340
+      },
+      {
+        "name": "paintBubble",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;II)V",
+        "native": false,
+        "code_bytes": 16
+      },
+      {
+        "name": "paintCanvas",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 3012
+      },
+      {
+        "name": "paintHidden",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 118
+      },
+      {
+        "name": "paintRotated",
+        "signature": "(Lcom/globalfun/adventuretime/free/Graphics;)V",
+        "native": false,
+        "code_bytes": 84
+      },
+      {
+        "name": "playBGM",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 240
+      },
+      {
+        "name": "preloadUI",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 714
+      },
+      {
+        "name": "pullStrings",
+        "signature": "(Ljava/lang/String;)[Ljava/lang/String;",
+        "native": false,
+        "code_bytes": 98
+      },
+      {
+        "name": "refreshState",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 26
+      },
+      {
+        "name": "repeatEvent",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 16
+      },
+      {
+        "name": "setState",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 204
+      },
+      {
+        "name": "skip",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 38
+      },
+      {
+        "name": "skipTitle",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 14
+      },
+      {
+        "name": "talkAdvance",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 78
+      },
+      {
+        "name": "updateUI",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 844
+      }
+    ],
+    "com.globalfun.adventuretime.free.Engine": [
+      {
+        "name": "<clinit>",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 82
+      },
+      {
+        "name": "<init>",
+        "signature": "(Lcom/globalfun/adventuretime/free/Main;)V",
+        "native": false,
+        "code_bytes": 232
+      },
+      {
+        "name": "continueGame",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 42
+      },
+      {
+        "name": "loadDungeon",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 248
+      },
+      {
+        "name": "loadRoom",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 248
+      },
+      {
+        "name": "newGame",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 38
+      },
+      {
+        "name": "resetGame",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 100
+      },
+      {
+        "name": "restartBoss",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 108
+      },
+      {
+        "name": "restartGame",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 30
+      },
+      {
+        "name": "resumeGame",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 22
+      },
+      {
+        "name": "skipToBoss",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 42
+      },
+      {
+        "name": "skipToDungeon",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 38
+      },
+      {
+        "name": "switchToWeapon",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 38
+      },
+      {
+        "name": "switchWeapon",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 126
+      },
+      {
+        "name": "updateLoad",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 436
+      },
+      {
+        "name": "updateTime",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 126
+      },
+      {
+        "name": "actionEvents",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 1300
+      },
+      {
+        "name": "backToGame",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 16
+      },
+      {
+        "name": "bossKilled",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 40
+      },
+      {
+        "name": "checkFlag",
+        "signature": "(I)Z",
+        "native": false,
+        "code_bytes": 30
+      },
+      {
+        "name": "checkFlag",
+        "signature": "(II)Z",
+        "native": false,
+        "code_bytes": 26
+      },
+      {
+        "name": "checkLever",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 28
+      },
+      {
+        "name": "completeDungeon",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 74
+      },
+      {
+        "name": "enterRoom",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 80
+      },
+      {
+        "name": "exit",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 14
+      },
+      {
+        "name": "exitDungeon",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 54
+      },
+      {
+        "name": "exitOverworld",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 34
+      },
+      {
+        "name": "exitRoom",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 68
+      },
+      {
+        "name": "getCurrentWeapon",
+        "signature": "()I",
+        "native": false,
+        "code_bytes": 14
+      },
+      {
+        "name": "getMenuItem",
+        "signature": "(I)Ljava/lang/String;",
+        "native": false,
+        "code_bytes": 116
+      },
+      {
+        "name": "handleKey",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 136
+      },
+      {
+        "name": "handleKeys",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 154
+      },
+      {
+        "name": "hasItem",
+        "signature": "(I)Z",
+        "native": false,
+        "code_bytes": 18
+      },
+      {
+        "name": "hasMultiWeapons",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 20
+      },
+      {
+        "name": "hasObject",
+        "signature": "(I)Z",
+        "native": false,
+        "code_bytes": 26
+      },
+      {
+        "name": "heal",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 28
+      },
+      {
+        "name": "heroIsDead",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 36
+      },
+      {
+        "name": "heroIsDieing",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 20
+      },
+      {
+        "name": "hide",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 34
+      },
+      {
+        "name": "hurt",
+        "signature": "(I)Z",
+        "native": false,
+        "code_bytes": 98
+      },
+      {
+        "name": "isDungeonOpen",
+        "signature": "(I)Z",
+        "native": false,
+        "code_bytes": 16
+      },
+      {
+        "name": "isFirstVisit",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 6
+      },
+      {
+        "name": "isInBossRoom",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 58
+      },
+      {
+        "name": "isPrincessRescued",
+        "signature": "(I)Z",
+        "native": false,
+        "code_bytes": 16
+      },
+      {
+        "name": "loadOverworld",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 88
+      },
+      {
+        "name": "pickup",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 412
+      },
+      {
+        "name": "playerUpdate",
+        "signature": "(Ljava/lang/String;)V",
+        "native": false,
+        "code_bytes": 2
+      },
+      {
+        "name": "purchase",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 66
+      },
+      {
+        "name": "rmsRead",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 314
+      },
+      {
+        "name": "rmsWrite",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 314
+      },
+      {
+        "name": "run",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 864
+      },
+      {
+        "name": "setFlag",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 24
+      },
+      {
+        "name": "setFlag",
+        "signature": "(II)V",
+        "native": false,
+        "code_bytes": 20
+      },
+      {
+        "name": "start",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 2
+      },
+      {
+        "name": "startDungeon",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 44
+      },
+      {
+        "name": "switchLever",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 54
+      },
+      {
+        "name": "switchWeaponIfEmpty",
+        "signature": "()V",
+        "native": false,
+        "code_bytes": 40
+      },
+      {
+        "name": "unlock",
+        "signature": "(I)V",
+        "native": false,
+        "code_bytes": 112
+      },
+      {
+        "name": "useKey",
+        "signature": "(I)Z",
+        "native": false,
+        "code_bytes": 60
+      },
+      {
+        "name": "usePotion",
+        "signature": "()Z",
+        "native": false,
+        "code_bytes": 56
+      },
+      {
+        "name": "vibrate",
+        "signature": "(Z)V",
+        "native": false,
+        "code_bytes": 22
+      }
+    ]
+  }
+}

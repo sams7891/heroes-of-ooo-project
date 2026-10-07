@@ -1,0 +1,18 @@
+--- a/decoded/smali/com/globalfun/adventuretime/free/Main.smali
++++ b/decoded/smali/com/globalfun/adventuretime/free/Main.smali
+@@ -470,11 +470,12 @@
+ .end method
+ 
+ .method public static logMessage(Ljava/lang/String;)V
+-    .locals 0
++    .locals 1
+     .param p0, "msg"    # Ljava/lang/String;
+ 
+-    .prologue
+-    .line 237
++    const-string v0, "HeroesOfOooDev"
++    invoke-static {v0, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
++    move-result v0
+     return-void
+ .end method
+ 

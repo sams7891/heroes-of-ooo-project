@@ -1,0 +1,7 @@
+{
+  "defined_methods_compared": 41442,
+  "descriptor_sets_equal": true,
+  "registers_flags_instruction_bytes_changed": 0,
+  "comparison_note": "Raw instruction bytes, access flags, register/input/output/try counts compared per method. Debug offsets and exception-handler data are not compared here.",
+  "changed_methods": []
+}

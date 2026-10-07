@@ -1,0 +1,5 @@
+{
+  "files.associations": { "*.smali": "plaintext" },
+  "search.exclude": { "decoded/smali/com/google": true, "decoded/smali/android": true, "decoded/smali/com/facebook": true, "build": true, "tools": true },
+  "files.exclude": { "**/__pycache__": true, "decoded/build": true }
+}

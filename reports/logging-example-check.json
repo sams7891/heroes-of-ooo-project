@@ -1,0 +1,9 @@
+{
+  "method": "Lcom/globalfun/adventuretime/free/Main;->logMessage(Ljava/lang/String;)V",
+  "build": "passed",
+  "signature_and_compatibility": "passed",
+  "new_call": "Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I",
+  "tag": "HeroesOfOooDev",
+  "runtime_tested": false,
+  "downloaded_project_default": "Original no-op logMessage restored; apply examples/enable-logging.patch to enable."
+}

@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-04",
+  "device": "Samsung Galaxy A55 5G",
+  "model": "SM-A556B/DS",
+  "reporter": "user",
+  "statement": "the app installed and ran correctly",
+  "apk": "reference/confirmed-working.apk",
+  "sha256": "4eee205339a0b4a4b0a49e5bdad043ed7c17caafb5b3f7549d5298bc7913a955",
+  "scope": "Installation and running reported; no exhaustive feature coverage claimed."
+}

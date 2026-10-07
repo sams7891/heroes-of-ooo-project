@@ -1,0 +1,2 @@
+# The project was tested with Python 3.12 and cryptography 46.0.0.
+cryptography==46.0.0

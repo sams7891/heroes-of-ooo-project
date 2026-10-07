@@ -1,0 +1,36 @@
+{
+  "file": "code-check.apk",
+  "sha256": "d8cd44fab1acae14580188f773ae822f7fe946dc601fe0add69afdd10374d54d",
+  "bytes": 7540713,
+  "archive_crc": "passed",
+  "signature": {
+    "scheme": "v2",
+    "algorithm": "RSA PKCS1/SHA-256",
+    "certificate_sha256": "20b3107354d9036bac8a4bca54f3846973c587971d7e7279bfff24f402c25d2e",
+    "subject": "CN=Heroes of Ooo Personal Development"
+  },
+  "manifest": {
+    "permissions": [
+      "android.permission.VIBRATE",
+      "android.permission.INTERNET",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.ACCESS_WIFI_STATE",
+      "android.permission.WRITE_EXTERNAL_STORAGE"
+    ],
+    "package": "com.globalfun.adventuretime.free",
+    "versionName": "1.2.10",
+    "versionCode": 24,
+    "minSdkVersion": 24,
+    "targetSdkVersion": null,
+    "effective_targetSdkVersion": 24
+  },
+  "native_library_count": 0,
+  "dex_integrity": "passed",
+  "decoded_instruction_count": 613142,
+  "haptics_factory_failure_path": "verified",
+  "runtime_test": "not performed by this verifier",
+  "changed_entries": [
+    "classes.dex"
+  ],
+  "removed_entries": []
+}

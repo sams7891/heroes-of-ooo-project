@@ -1,0 +1,9 @@
+{
+  "command": "python -m unittest discover -s tests -v",
+  "tests_run": 9,
+  "result": "passed",
+  "independent_rsa_check": "openssl dgst -sha256: Verified OK",
+  "default_smali_rebuild": "passed",
+  "logging_example_rebuild": "passed",
+  "device_runtime_for_new_project_builds": "not tested"
+}

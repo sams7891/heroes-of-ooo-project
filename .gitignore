@@ -1,0 +1,22 @@
+.venv/
+.local/
+build/
+__pycache__/
+*.pyc
+decoded/build/
+decoded/dist/
+tools/framework/
+tools/*.download
+# Never commit signing identities.
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Local IDE settings and credentials
+.idea/
+.env
+.env.*
+*.key
+*.iml
